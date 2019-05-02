@@ -1,0 +1,137 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:black;
+    overflow: hidden;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,p{
+    padding:0;
+    margin:0;
+}
+
+.song{
+    display:flex;
+    justify-content: space-between
+}
+.cur  h1{
+    font-size:10px;
+    color:lightgreen;
+}
+
+.stpbtn h1{
+    font-size:10px;
+    color:lightgreen;
+}
+
+
+
+.blink{
+    animation: blink 1.5s linear infinite;
+    font-size:6px;
+    
+}
+@keyframes blink {
+    50% { color: pink); }
+    51% { color: pink; }
+    100% { color: pink; }
+}
+
+section{
+    margin-top:3%;
+    background:url(../img/original.gif) top no-repeat;
+    background-size:cover;
+    width:auto;
+    height:800px;
+}
+
+.center{
+padding-top:150px;
+ width:380px;
+ height:450px;
+ margin:0 auto;
+
+}
+
+.center img{
+    
+    display:block;
+    margin:0 auto;
+}
+
+.center h1,h2{
+    text-align: center;
+}
+
+.links{
+    display:flex;
+    justify-content: center;
+    font-size:24px;
+
+    
+}
+
+#tyan{
+    
+    outline:7px solid white;
+    border:2px solid black;
+}
+
+#tyan:hover{
+  opacity:0.9;
+}
+
+
+.green{
+    color:lightgreen;
+    
+}
+
+
+.blue{
+    color:lightblue;
+}
+
+.center h1{
+    font-size:60px;
+    color:yellow;
+}
+
+.center h2{
+    color:white;
+}
+
+.vk:hover{
+    font-size:30px;
+}
+
+.steam{
+    margin-left:10px;
+}
+
+.steam:hover{
+   font-size:30px;
+
+}
+
+.blue:hover{
+   color:green;
+}
+
+
+footer{
+    margin-top:20px;
+    color:lightgreen;
+    text-align:center;]
+    
+}
+
+footer h1{
+    font-size:12px;
+
+}
